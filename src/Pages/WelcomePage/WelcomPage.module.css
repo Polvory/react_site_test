@@ -1,0 +1,14 @@
+.WelcomPage_ParentGrid{
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    
+    ". content ."
+    ;
+}
+
+.WelcomPage_ParentGrid__content{
+    grid-area:content ;
+}
